@@ -1,0 +1,11 @@
+{
+  "name": "ModTest",
+  "version": "0.1.1",
+  "title": "pfg's ModTest",
+	"factorio_version": "0.14",
+  "author": "ModTest",
+  "contact": "https://www.youtube.com/watch?v=gvdf5n-zI14",
+  "homepage": "https://www.youtube.com/watch?v=gvdf5n-zI14",
+  "description": "Mod that Tests",
+  "dependencies": ["base >= 0.4.1"]
+}
