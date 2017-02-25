@@ -56,7 +56,7 @@ function addScienceRecipe(name,recipe,result,count,energy)
       name = name.."-fluid",
       category= "science-pump",
       energy_required = energy,
-      ingredients = parseRecipe(recipe),
+      ingredients = parseScienceRecipe(recipe,name),
       results = {
         {
           type="fluid",
@@ -75,6 +75,7 @@ function addOfficialScienceRecipe(name)
       name = name,
       category = "science-pump",
       energy_required = energy,
+      enabled = data.raw["recipe"][name]["enabled"],
       ingredients = {
         {"glass", 3},
         {
@@ -100,8 +101,11 @@ function parseColor(s)
   return s
 end
 
-function parseRecipe(s)
+function parseScienceRecipe(s,name)
   if(type(s) == "string") then
+    if(s == "default") then
+      return data.raw["recipe"][name]["ingredients"];
+    end
     items = string.split(s,",",false)
     for i, item in ipairs(items) do
       icn = string.split(item,":",false)
@@ -118,7 +122,7 @@ function addScience(name,base_color,flow_color,recipe,energy_required,count)
   addOfficialScienceRecipe(name)
 end
 
-addScience("science-pack-1", "0.8,0.2,0.1", "0.7,0.1,0.1", "iron-gear-wheel:1,copper-plate:1", 5, 1)
-addScience("science-pack-2", "0.2,0.9,0.2", "0.1,0.8,0.2", "inserter:1,transport-belt:1", 6, 1)
-addScience("science-pack-3", "0.24,0.86,0.95", "0.22,0.68,0.77", "battery:1,advanced-circuit:1,filter-inserter:1,steel-plate:1", 12, 1)
-addScience("alien-science-pack", "0.85,0.11,0.92", "0.78,0.1,0.83", "alien-artifact:1", 12, 1)
+addScience("science-pack-1", "0.8,0.2,0.1", "0.7,0.1,0.1", "default", 5, 1)
+addScience("science-pack-2", "0.2,0.9,0.2", "0.1,0.8,0.2", "default", 6, 1)
+addScience("science-pack-3", "0.24,0.86,0.95", "0.22,0.68,0.77", "default", 12, 1)
+addScience("alien-science-pack", "0.85,0.11,0.92", "0.78,0.1,0.83", "default", 12, 10)
