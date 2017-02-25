@@ -16,81 +16,26 @@ data:extend({
 data:extend({
  {
     type = "recipe",
-    name = "science-red",
-    enabled = "true",
-    category= "oil-processing",
+    name = "science-pump",
+    enabled = true,
     ingredients = {
-      {"iron-gear-wheel",1},
-      {"copper-plate",1}
+      {"electronic-circuit", 10},
+      {"iron-gear-wheel", 10},
+      {"transport-belt", 4}
     },
-    results = {
-      {
-        type="fluid",
-        name="science-red",
-        amount=1
-      }
-    }
+    result = "science-pump"
   }
 })
 
 data:extend({
  {
     type = "recipe",
-    name = "science-green",
-    enabled = "true",
-    category= "oil-processing",
+    name = "glass",
+    enabled = true,
+    category = "smelting",
     ingredients = {
-      --{"basic-inserter",1},
-      --{"basic-transport-belt",1}
-      {"iron-stick", 1} -- wht doesn't basic-inserter work
+      {"sand", 1}
     },
-    results = {
-      {
-        type="fluid",
-        name="science-green",
-        amount=1
-      }
-    }
-  }
-})
-
-data:extend({
- {
-    type = "recipe",
-    name = "science-blue",
-    enabled = "true",
-    category= "oil-processing",
-    ingredients = {
-      {"battery",1},
-      {"advanced-circuit",1},
-      {"filter-inserter",1},
-      {"steel-plate",1}
-    },
-    results = {
-      {
-        type="fluid",
-        name="science-blue",
-        amount=1
-      }
-    }
-  }
-})
-
-data:extend({
- {
-    type = "recipe",
-    name = "science-alien",
-    enabled = "true",
-    category= "oil-processing",
-    ingredients = {
-      {"alien-artifact",1}
-    },
-    results = {
-      {
-        type="fluid",
-        name="science-alien",
-        amount=1
-      }
-    }
+    result = "glass"
   }
 })
