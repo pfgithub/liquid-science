@@ -1,4 +1,4 @@
-data:extend({
+--[[data:extend({
  {
     type = "recipe",
     name = "smelter-inserter",
@@ -11,7 +11,7 @@ data:extend({
     },
     result = "smelter-inserter"
   }
-})
+})]]--
 
 data:extend({
  {

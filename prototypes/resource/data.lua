@@ -56,15 +56,15 @@ data:extend({
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace = autoplace_settings("sand-ore", 0.02),
-    stage_counts = {1000, 600, 400, 200},
+    stage_counts = {1000},
     stages = {
       sheet = {
-        filename = "__liquid-science__/graphics/icons/resource/sand-ore-spritesheet.png",
+        filename = "__liquid-science__/graphics/icons/resource/sand-ore-texture.png",
         priority = "extra-high",
         width = 54,
         height = 54,
         frame_count = 1,
-        variation_count = 4
+        variation_count = 1
       }
     },
     map_color = {r=0.85, g=0.765, b=0.608}

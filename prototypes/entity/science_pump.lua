@@ -2,7 +2,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "science-pump",
-    icon = "__base__/graphics/icons/chemical-plant.png",
+    icon = "__liquid-science__/graphics/icons/chemical-plant.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant"},
     max_health = 300,
@@ -19,7 +19,7 @@ data:extend({
     {
       north =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__liquid-science__/graphics/entity/chemical-plant.png",
         width = 156,
         height = 141,
         frame_count = 1,
@@ -27,7 +27,7 @@ data:extend({
       },
       west =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__liquid-science__/graphics/entity/chemical-plant.png",
         x = 468,
         width = 156,
         height = 141,
@@ -36,7 +36,7 @@ data:extend({
       },
       south =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__liquid-science__/graphics/entity/chemical-plant.png",
         x = 312,
         width = 156,
         height = 141,
@@ -45,7 +45,7 @@ data:extend({
       },
       east =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__liquid-science__/graphics/entity/chemical-plant.png",
         x = 156,
         width = 156,
         height = 141,
@@ -62,7 +62,7 @@ data:extend({
         east_position = {-0.3, 0.02},
         animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch.png",
+          filename = "__liquid-science__/graphics/entity/boiling-green-patch.png",
           frame_count = 35,
           width = 17,
           height = 12,
@@ -76,14 +76,14 @@ data:extend({
         east_position = {-0.3, 0.55},
         north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__liquid-science__/graphics/entity/boiling-window-green-patch.png",
           frame_count = 1,
           width = 21,
           height = 10
         },
         east_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__liquid-science__/graphics/entity/boiling-window-green-patch.png",
           x = 21,
           frame_count = 1,
           width = 21,
@@ -91,7 +91,7 @@ data:extend({
         },
         south_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__liquid-science__/graphics/entity/boiling-window-green-patch.png",
           x = 42,
           frame_count = 1,
           width = 21,
