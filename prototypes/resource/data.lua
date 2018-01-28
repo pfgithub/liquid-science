@@ -35,7 +35,8 @@ data:extend({
     type = "autoplace-control",
     name = "sand-ore",
     richness = true,
-    order = "g-s"
+    order = "g-s",
+    category = "resource"
   }
 })
 
@@ -67,6 +68,7 @@ data:extend({
         variation_count = 1
       }
     },
+    icon_size = 20,
     map_color = {r=0.85, g=0.765, b=0.608}
   }
 })

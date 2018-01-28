@@ -2,6 +2,7 @@ string.split = require("api.split")
 
 function parseScienceRecipe(s,name)
   if(type(s) == "string") then
+    data.raw["recipe"][name]["category"]="science-pump";
     if(s == "default") then
       return data.raw["recipe"][name]["ingredients"];
     end

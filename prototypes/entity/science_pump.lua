@@ -122,6 +122,7 @@ data:extend({
     energy_usage = "210kW",
     ingredient_count = 4,
     crafting_categories = {"science-pump"},
+    icon_size = 32,
     fluid_boxes =
     {
       {

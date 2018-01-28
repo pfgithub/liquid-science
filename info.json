@@ -2,10 +2,10 @@
   "name": "liquid-science",
   "version": "0.1.2",
   "title": "Liquid Science",
-  "factorio_version": "0.14",
-  "author": "pfg and other people",
-  "contact": "a contact should go here",
-  "homepage": "a url should go here",
+  "factorio_version": "0.16",
+  "author": "pfg",
+  "contact": "pfgithub on github",
+  "homepage": "https://github.com/pfgithub/liquid-science",
   "description": "A mod that turnes science into a liquid that you have to fill science packs with",
-  "dependencies": ["base >= 0.4.1"]
+  "dependencies": ["base >= 0.16.20"]
 }

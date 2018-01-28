@@ -16,6 +16,7 @@ function addScienceFluid(name,base_color,flow_color,icon)
       pressure_to_speed_ratio = 0.4,
       flow_to_energy_ratio = 0.59,
       order = "e[lubricant]",
+      icon_size = 32
     }
   })
 end
