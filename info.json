@@ -7,5 +7,5 @@
   "contact": "pfgithub on github",
   "homepage": "https://github.com/pfgithub/liquid-science",
   "description": "A mod that turnes science into a liquid that you have to fill science packs with",
-  "dependencies": ["base >= 0.16.20"]
+  "dependencies": ["base >= 0.15.0"]
 }
