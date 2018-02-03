@@ -4,7 +4,7 @@ data:extend({
     name = "science-pump",
     icon = "__liquid-science__/graphics/icons/chemical-plant.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "science-pump"},
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -14,7 +14,7 @@ data:extend({
     {
       module_slots = 2
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "speed", "pollution"},
     animation =
     {
       north =
