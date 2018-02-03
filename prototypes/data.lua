@@ -1,3 +1,4 @@
+require("prototypes.itemgroup.data")
 require("prototypes.item.data")
 require("prototypes.entity.data")
 require("prototypes.resource.data")

@@ -10,7 +10,8 @@ function addScienceRecipe(name,recipe,result,count,energy)
       category= "science-pump",
       energy_required = energy or getScienceEnergy(name),
       ingredients = parseScienceRecipe(recipe,name),
-      subgroup = "intermediate-product",
+      item_group = "intermediate-products",
+      subgroup = "science-liquid",
       results = {
         {
           type ="fluid",

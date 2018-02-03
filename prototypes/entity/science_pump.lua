@@ -121,6 +121,9 @@ data:extend({
     },
     energy_usage = "210kW",
     ingredient_count = 4,
+    item_group = "production",
+    item_subgroup = "production-machine",
+    order = "f",
     crafting_categories = {"science-pump"},
     icon_size = 32,
     fluid_boxes =

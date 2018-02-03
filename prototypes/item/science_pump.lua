@@ -7,6 +7,6 @@ data:extend({
     flags = { "goes-to-quickbar" },
     icon = "__liquid-science__/graphics/icons/chemical-plant.png",
     place_result = "science-pump",
-    icon_size = 20
+    icon_size = 32
   }
 })
