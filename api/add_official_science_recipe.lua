@@ -1,4 +1,4 @@
-function addOfficialScienceRecipe(name)
+function addOfficialScienceRecipe(name, input)
   data:extend({
    {
       type = "recipe",
@@ -10,7 +10,7 @@ function addOfficialScienceRecipe(name)
         {"glass", 3},
         {
           type="fluid",
-          name=name,
+          name=input,
           amount=1
         }
       },

@@ -5,7 +5,7 @@ data:extend({
   }
 })
 
--- until 0.15, this will be manual -- loljk
+-- until 0.15, this will be manual -- nvm it will stay manual because item tinting
 addScience = require("api.add_science")
 
 --208, 177, 21 high tech
