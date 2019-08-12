@@ -69,6 +69,7 @@ data:extend({
       }
     },
     icon_size = 20,
-    map_color = {r=0.85, g=0.765, b=0.608}
+      --map_color = {r=0.85, g=0.765, b=0.608}
+    map_color = {r=255, g=255, b=204}
   }
 })
